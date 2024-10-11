@@ -9,7 +9,7 @@ fi
 
 product=1
 
-# Loop from 10 to the user 
+
 for (( i=10; i<=end_number; i++ ))
 do
   product=$((product * i))
