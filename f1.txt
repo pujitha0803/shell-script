@@ -1,0 +1,10 @@
+product=1
+
+
+for (( i=10; i<=30; i++ ))
+do
+  product=$((product * i))
+done
+
+
+echo "The product of numbers from 10 to 30 is: $product"
