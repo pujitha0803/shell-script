@@ -3,7 +3,7 @@
 #Date=13-07-24
 #Filename=f1.sh
 #Title=Shell-script
-#Description:....
+
 
 start=0
 end=30
