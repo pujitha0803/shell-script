@@ -1,19 +1,10 @@
-read -p "Enter the ending number (>=10): " end_number
+#!/bin/bash
 
-
-if ! [[ "$end_number" =~ ^[0-9]+$ ]] || [ "$end_number" -lt 10 ]; then
-  echo "Please enter a valid number greater than or equal to 10."
-  exit 1
-fi
-
-
+start=0
+end=30
 product=1
-
-
-for (( i=10; i<=end_number; i++ ))
+for (( i=start; i<=end; i++ ))
 do
-  product=$((product * i))
+        product=$((product * i))
 done
-
-
-echo "The product of numbers from 10 to $end_number is: $product"
+echo "The product of numbers from $start to $end is: $product"
